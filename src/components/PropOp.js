@@ -101,7 +101,7 @@ const PropOp = () => {
             <ul className="space-y-2">
               {data[activeTab][category].map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-800 text-sm">
+                  <a href="/" className="text-gray-800 text-sm">
                     {item}
                   </a>
                 </li>

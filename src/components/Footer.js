@@ -20,7 +20,7 @@ const Footer = () => {
                 ...
               </p>
               <a
-                href="#"
+                href="/"
                 className="text-red-500 text-sm font-medium hover:underline"
               >
                 Read more
@@ -34,19 +34,19 @@ const Footer = () => {
               <p className="text-sm text-gray-600 mb-4">Times Now | ET Now</p>
 
               <div className="flex space-x-4 text-gray-500 text-2xl">
-                <a href="#" className="hover:text-red-500">
+                <a href="/" className="hover:text-red-500">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="hover:text-red-500">
+                <a href="/" className="hover:text-red-500">
                   <FaTwitter />
                 </a>
-                <a href="#" className="hover:text-red-500">
+                <a href="/" className="hover:text-red-500">
                   <FaLinkedinIn />
                 </a>
-                <a href="#" className="hover:text-red-500">
+                <a href="/" className="hover:text-red-500">
                   <FaYoutube />
                 </a>
-                <a href="#" className="hover:text-red-500">
+                <a href="/" className="hover:text-red-500">
                   <FaInstagram />
                 </a>
               </div>
@@ -116,7 +116,7 @@ const Footer = () => {
               ].map((link, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href="/"
                   className="hover:text-red-500 transition-colors"
                 >
                   {link}

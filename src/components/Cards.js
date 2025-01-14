@@ -83,7 +83,7 @@ const Cards = () => {
               ular Owner Properties
             </h2>
             <a
-              href="#"
+              href="/"
               className="text-red text-sm font-semibold hover:underline"
             >
               See all Properties →
@@ -157,7 +157,7 @@ const Cards = () => {
 
           <div className="flex justify-center mt-6">
             <a
-              href="#"
+              href="/"
               className="bg-red text-white font-medium py-2 px-8 rounded-full shadow-lg hover:bg-red-700 transition duration-300"
             >
               View All New Projects

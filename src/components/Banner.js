@@ -61,7 +61,7 @@ const Banner = () => {
                     {category.title}
                   </div>
                   <a
-                    href="#"
+                    href="/"
                     className="text-sm text-white font-semibold mt-1 flex items-center"
                   >
                     Explore <span className="ml-1">→</span>

@@ -67,7 +67,7 @@ const Guide = () => {
               sh Properties in Chennai
             </h2>
             <a
-              href="#"
+              href="/"
               className="text-red text-sm font-semibold hover:underline"
             >
               See all Properties →

@@ -7,7 +7,7 @@ const Header = () => {
         <div className="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-1 ">
           <div className="flex">
             <a
-              href="#"
+              href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse mr-8"
             >
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
@@ -46,17 +46,17 @@ const Header = () => {
                 aria-labelledby="dropdownLargeButton"
               >
                 <li>
-                  <a href="#" className="block px-4 py-2 ">
+                  <a href="/" className="block px-4 py-2 ">
                     Nearby Cities
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="block px-4 py-2 ">
+                  <a href="/" className="block px-4 py-2 ">
                     Popular Cities
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="block px-4 py-2">
+                  <a href="/" className="block px-4 py-2">
                     Other Cities
                   </a>
                 </li>
@@ -126,7 +126,7 @@ const Header = () => {
                   >
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="block px-2 py-2 bg-red rounded-lg text-center text-white font-bold"
                       >
                         Join Now
@@ -169,7 +169,7 @@ const Header = () => {
                   >
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="block px-2 py-2 bg-red rounded-lg text-center text-white font-bold"
                       >
                         Login
@@ -180,7 +180,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="block p-1 px-3 bg-white rounded-full text-center text-black "
                 >
                   Post Property{" "}
@@ -231,17 +231,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -281,17 +281,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -332,17 +332,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -383,17 +383,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -434,17 +434,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -488,17 +488,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>
@@ -539,17 +539,17 @@ const Header = () => {
                     aria-labelledby="dropdownLargeButton"
                   >
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Nearby Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2 ">
+                      <a href="/" className="block px-4 py-2 ">
                         Popular Cities
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">
+                      <a href="/" className="block px-4 py-2">
                         Other Cities
                       </a>
                     </li>

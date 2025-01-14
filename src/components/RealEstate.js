@@ -13,34 +13,34 @@ const RealEstate = () => {
           <h3 className="text-xl font-semibold mb-4">Industry Insights</h3>
           <ul className="space-y-3">
             <li className="border-b pb-2">
-              <a href="#" className="text-black ">
+              <a href="/" className="text-black ">
                 15 Vastu Tips for Residential Building
               </a>
             </li>
             <li className="border-b pb-2">
-              <a href="#" className="text-black ">
+              <a href="/" className="text-black ">
                 Sale Deed: Meaning, Format, and Components of a Sale Deed
               </a>
             </li>
             <li className="border-b pb-2">
-              <a href="#" className="text-black">
+              <a href="/" className="text-black">
                 What Does RERA Carpet Area Mean & How is it Calculated
               </a>
             </li>
             <li className="border-b pb-2">
-              <a href="#" className="text-black">
+              <a href="/" className="text-black">
                 Patta Chitta Online 2025 - E-services of Tamil Nadu Land Records
               </a>
             </li>
             <li>
-              <a href="#" className="text-black">
+              <a href="/" className="text-black">
                 Top 18 Most Posh Areas in Chennai (Best Residential Places &
                 Localities)
               </a>
             </li>
           </ul>
           <div className="mt-4 ">
-            <a href="#" className="text-red-600  font-semibold">
+            <a href="/" className="text-red-600  font-semibold">
               See all →
             </a>
           </div>
@@ -56,12 +56,12 @@ const RealEstate = () => {
                 className="w-16 h-16 object-cover rounded"
               />
               <div>
-                <a href="#" className="text-black hover:underline">
+                <a href="/" className="text-black hover:underline">
                   Inheritance Laws in India - All You Need to Know
                 </a>
                 <p>
                   <a
-                    href="#"
+                    href="/"
                     className="text-red-600 hover:underline font-semibold"
                   >
                     Watch video →
@@ -76,13 +76,13 @@ const RealEstate = () => {
                 className="w-16 h-16 object-cover rounded"
               />
               <div>
-                <a href="#" className="text-black hover:underline">
+                <a href="/" className="text-black hover:underline">
                   Patta Chitta Online 2025 - E-services of Tamil Nadu Land
                   Records
                 </a>
                 <p>
                   <a
-                    href="#"
+                    href="/"
                     className="text-red-600 hover:underline font-semibold"
                   >
                     Read article →
@@ -92,7 +92,7 @@ const RealEstate = () => {
             </li>
           </ul>
           <div className="mt-4 md:mt-16">
-            <a href="#" className="text-red-600 hover:underline font-semibold">
+            <a href="/" className="text-red-600 hover:underline font-semibold">
               See all →
             </a>
 
