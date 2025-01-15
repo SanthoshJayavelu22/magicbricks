@@ -1,5 +1,6 @@
 import Tabs from "./Tabs";
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
@@ -10,7 +11,20 @@ import sliderThree from "../images/slider-3.jpg";
 
 
 const SearchBar = () => {
+
+  const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      navigate(`/search?location=${encodeURIComponent(searchTerm)}`);
+    }
+  };
+
+  
   return (
+
     <div className="container mx-auto px-3 md:px-0 md:max-w-screen-xl">
       <div className="mt-5 md:mt-40 grid grid-cols-12">
         <div className="col-span-12 md:col-span-9">
@@ -21,7 +35,7 @@ const SearchBar = () => {
             </p>
             <Tabs />
             <div>
-              <form className=" mx-auto mt-4">
+              <form className=" mx-auto mt-4" onSubmit={handleSearch}>
                 <label
                   for="default-search"
                   className="mb-2 text-sm font-medium text-gray-900 sr-only "
@@ -37,6 +51,8 @@ const SearchBar = () => {
                     id="default-search"
                     className="block w-full px-8 py-5 text-sm md:text-md shadow-md text-gray-900 border border-gray-400 rounded-full bg-white "
                     placeholder="Enter City Locality, Project"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
                     required
                   />
                   <div className="absolute inset-x-96 inset-y-0  flex items-center ps-3 border-x my-3 border-gray-400  cursor-pointer">

@@ -1,21 +1,21 @@
 import React from "react";
-import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import Banner from "./components/Banner";
-import Cards from "./components/Cards";
-import Guide from "./components/Guide";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+
+import SearchResults from "./components/SearchResults";
+
 
 function App() {
   return (
-   <>
-   <Header/>
-   <SearchBar/>
-   <Banner/>
-   <Cards/>
-   <Guide/>
-   <Footer/>
-   </>
+    <Router>
+        <Routes>
+        <Route path="/" element={<Home />} />
+       
+        <Route path="/search" element={<SearchResults />} />
+      </Routes>
+    </Router>
+
+   
   );
 }
 
